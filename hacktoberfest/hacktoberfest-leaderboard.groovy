@@ -1,3 +1,4 @@
+#!/usr/bin/env groovy
 import groovy.json.*
 def members = new File('members.txt').text
 entry = [:]
