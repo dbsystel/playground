@@ -1,0 +1,10 @@
+== Welcome to Hacktoberfest 2019!
+
+This is the Leaderboard-Generator for this year's event in frankfurt.
+See https://hacktoberffm.de for more details.
+
+To create your first pull request, simply edit the file:members.txt file by adding your github id to the end of the list.
+
+Have fun!
+
+The Hacktoberfest FFM Team

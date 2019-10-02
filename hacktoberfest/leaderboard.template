@@ -1,0 +1,137 @@
+
+<!doctype html>
+<html data-n-head-ssr lang="en" data-n-head="lang">
+  <head>
+    <title>hacktoberffm</title>
+    <meta data-n-head="ssr" charset="utf-8">
+    <meta data-n-head="ssr" name="viewport" content="width=device-width,initial-scale=1">
+    <meta data-n-head="ssr" data-hid="description" name="description" content="Hacktoberfest Frankfurt">
+    <meta data-n-head="ssr" data-hid="mobile-web-app-capable" name="mobile-web-app-capable" content="yes">
+    <meta data-n-head="ssr" data-hid="apple-mobile-web-app-title" name="apple-mobile-web-app-title" content="hacktoberffm">
+    <meta data-n-head="ssr" data-hid="author" name="author" content="vicbergquist">
+    <meta data-n-head="ssr" data-hid="theme-color" name="theme-color" content="#fff">
+    <meta data-n-head="ssr" data-hid="og:type" name="og:type" property="og:type" content="website">
+    <meta data-n-head="ssr" data-hid="og:title" name="og:title" property="og:title" content="hacktoberffm">
+    <meta data-n-head="ssr" data-hid="og:site_name" name="og:site_name" property="og:site_name" content="hacktoberffm">
+    <meta data-n-head="ssr" data-hid="og:description" name="og:description" property="og:description" content="Hacktoberfest Frankfurt">
+    <link data-n-head="ssr" rel="icon" type="image/x-icon" href="https://hacktoberffm.de/favicon.ico">
+    <link data-n-head="ssr" rel="manifest" href="https://hacktoberffm.de/_nuxt/manifest.2aea42c1.json">
+    <link data-n-head="ssr" rel="shortcut icon" href="https://hacktoberffm.de/_nuxt/icons/icon_64.d91c5e.png">
+    <link data-n-head="ssr" rel="apple-touch-icon" href="https://hacktoberffm.de/_nuxt/icons/icon_512.d91c5e.png" sizes="512x512">
+    <link rel="preload" href="https://hacktoberffm.de/_nuxt/2ac368035cec88c6722c.js" as="script">
+    <link rel="preload" href="https://hacktoberffm.de/_nuxt/a6ac5547d8df18f4e93f.js" as="script">
+    <link rel="preload" href="https://hacktoberffm.de/_nuxt/610d9972d85a9194548b.js" as="script">
+    <link rel="preload" href="https://hacktoberffm.de/_nuxt/d529ce194123a6e49bee.js" as="script">
+    <link rel="preload" href="https://hacktoberffm.de/_nuxt/3ec9ab923181f13f6fd7.js" as="script">
+    <style data-vue-ssr-id="0e4797cc:0 0e4797cc:1 3191d5ad:0 8a26bd38:0">
+      @import url(https://fonts.googleapis.com/css?family=Fira+Code&display=swap);*{box-sizing:border-box}html{background:#172344}body{position:relative;background-color:#172344;background-image:url(/_nuxt/img/fe633f5.png);background-size:cover;background-attachment:fixed;min-height:100vh;margin:0;color:#ebe8ef;font-family:Fira Code,monospace;font-size:18px;line-height:1.4}a{cursor:pointer}a:focus{outline:0}p a{display:inline-block;color:inherit;font-weight:700;text-decoration:none;border-bottom:2px solid #fff922;line-height:1;transition:all .3s linear}p a:focus,p a:hover{border-color:#f0a}ul{line-height:1.5}img{width:100%;height:100%}h1,h2,h3{margin:0}button{font:inherit;outline:0;color:inherit;border:0;background:0}.layout-wrapper{position:relative;display:flex}.content-wrapper{max-width:800px;padding:2rem 1rem}.btn-toggle{display:none;position:fixed;bottom:0;padding:.5rem 1rem;font-size:1rem;margin:0;background:#f0a;z-index:1000}.button-toggle:focus{color:#f0a;background:#fff922}@media screen and (max-width:768px){body{font-size:18px}.layout-wrapper{display:block}.btn-toggle{display:inline;display:initial}}@media screen and (max-width:350px){body{font-size:16px}}.nuxt-progress{position:fixed;top:0;left:0;right:0;height:2px;width:0;opacity:1;transition:width .1s,opacity .4s;background-color:#fff;z-index:999999}.nuxt-progress.nuxt-progress-notransition{transition:none}.nuxt-progress-failed{background-color:red}.nav-wrapper[data-v-1f615f69]{max-width:350px;width:100%;padding:1rem;flex-shrink:1}.logo[data-v-1f615f69]{display:flex;max-width:300px;margin-bottom:1rem}.logo img[data-v-1f615f69]{display:block;width:100%;height:100%}.nav[data-v-1f615f69]{position:-webkit-sticky;position:sticky;top:0;align-items:center}.nav-links[data-v-1f615f69],.nav[data-v-1f615f69]{display:flex;flex-direction:column}.nav-links[data-v-1f615f69]{max-width:250px;text-align:center}.nav-link[data-v-1f615f69]{position:relative;text-decoration:none;color:#ebe8ef;font-weight:700;margin-bottom:1rem;font-size:1.2rem;transition:all .3s linear;border-bottom:2px solid transparent;align-self:center}.nav-link[data-v-1f615f69]:before{position:absolute;left:-1.5rem;opacity:0;content:">";color:inherit;transition:all .3s linear;color:#fff922}.nav-link[data-v-1f615f69]:focus,.nav-link[data-v-1f615f69]:hover{color:#f0a;outline:0}.nav-link[data-v-1f615f69]:hover:before{opacity:0}.nuxt-link-exact-active[data-v-1f615f69]:before,.nuxt-link-exact-active[data-v-1f615f69]:hover:before{opacity:1}.nav-btn[data-v-1f615f69]{position:relative;color:#fff;text-decoration:none;align-self:center;font:inherit;font-weight:700;font-size:1.2rem;transition:all .3s linear;background:#f0a;padding:.5rem 1.5rem;border-radius:4px}.nav-btn[data-v-1f615f69]:hover{transform:scale(1.03)}.nav-btn[data-v-1f615f69]:focus{outline:0;background:#fff922;color:#f0a}@media screen and (max-width:768px){.nav-wrapper[data-v-1f615f69]{position:fixed;transform:translateX(-350px);transition:all .3s linear;background-color:#172344;background-image:url(/_nuxt/img/fe633f5.png);background-size:cover;background-attachment:fixed;min-height:100vh}.is-open[data-v-1f615f69]{transform:translateX(0)}}
+    </style>
+  </head>
+  <body>
+    <div data-server-rendered="true" id="__nuxt">
+      <!---->
+      <div id="__layout">
+        <div class="layout-wrapper">
+          <button tabindex="0" class="btn-toggle">
+            <span>Menu -></span>
+          </button> 
+          <div class="nav-wrapper" data-v-1f615f69>
+            <div class="nav" data-v-1f615f69>
+              <div class="logo" data-v-1f615f69>
+                <a href="/" class="nuxt-link-active" data-v-1f615f69>
+                  <img src="https://hacktoberffm.de/logo.png" data-v-1f615f69>
+                </a>
+              </div> 
+              <nav class="nav-links" data-v-1f615f69>
+                <a href="/" class="nav-link nuxt-link-active" data-v-1f615f69>
+        Home
+      </a>
+      <a href="https://hacktoberffm.de/agenda" class="nav-link" data-v-1f615f69>
+        Agenda
+      </a>
+      <a href="leaderboard.html" class="nav-link nuxt-link-active nuxt-link-exact-active" data-v-1f615f69>
+        Leaderboard
+      </a>
+      <a href="https://hacktoberffm.de/resources" class="nav-link" data-v-1f615f69>
+        Resources
+      </a>
+      <a href="https://hacktoberffm.de/conduct" class="nav-link" data-v-1f615f69>
+        Code of Conduct
+      </a> <a href="https://hacktoberffm.de/register" class="nav-btn" data-v-1f615f69>
+        Register
+      </a>
+    </nav>
+  </div>
+</div> 
+<style>
+  entry {
+    position: relative;
+  }
+entry {
+  display: inline-block;
+  margin-top: 16px;
+  margin-right: 32px;
+}
+entry name {
+  position: absolute;
+  font-size: 16px;
+  left: 0px;
+  top: -16px;
+  color: #f0a;
+  text-shadow: 0 0 5px #f0a;
+  display: block;
+  z-index: 10;
+}
+entry prs {
+  position: absolute;
+  display: inline-block;
+  left: 72px;
+  top: 64px;
+  width: 32px;
+  height: 32px;
+  color: yellow;
+  text-shadow: 0 0 5px yellow;
+  border: 2px solid #f0a;
+  padding: 2px 6px;
+  align-content: center;
+  text-align: center;
+  vertical-align: middle;
+  border-radius: 16px;
+  box-shadow: 0 0 15px #f0a;
+  background-color: #172344;
+  z-index: 1000;
+}
+.hex {
+  stroke: #92EAFF;
+  stroke-width: 2;
+  transform: scale(1);
+
+
+}
+avatar svg {
+  filter: drop-shadow(rgba(146, 234, 255, 0.5) 0px 0px 10px);
+  transform: rotate(-5deg);
+  display: inline-block;
+  
+}
+
+</style>
+<div class="content-wrapper">
+  <div>
+    <h1>Leaderboard</h1>
+    <p>To show up on this leaderboard, please follow the instructions at
+      <a href="https://github.com/dbsystel/playground/hacktoberfest">https://github.com/dbsystel/playground/hacktoberfest</a>
+    </p>
+    <p>
+%content%                                                                  
+    </p>
+    
+  </div>
+</div>
+</div>
+</div>
+</div>
+    <script src="https://hacktoberffm.de/_nuxt/2ac368035cec88c6722c.js" defer></script><script src="https://hacktoberffm.de/_nuxt/3ec9ab923181f13f6fd7.js" defer></script><script src="https://hacktoberffm.de/_nuxt/a6ac5547d8df18f4e93f.js" defer></script><script src="https://hacktoberffm.de/_nuxt/610d9972d85a9194548b.js" defer></script><script src="https://hacktoberffm.de/_nuxt/d529ce194123a6e49bee.js" defer></script>
+  </body>
+</html>
+
