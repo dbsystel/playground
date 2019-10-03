@@ -120,7 +120,7 @@ avatar svg {
   <div>
     <h1>Leaderboard</h1>
     <p>To show up on this leaderboard, please follow the instructions at
-      <a href="https://github.com/dbsystel/playground/hacktoberfest">https://github.com/dbsystel/playground/hacktoberfest</a>
+      <a href="https://github.com/dbsystel/playground/hacktoberfest">our hacktoberfest playground</a>
     </p>
     <p>
 %content%                                                                  
