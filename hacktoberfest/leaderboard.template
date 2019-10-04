@@ -110,11 +110,20 @@ entry prs {
 
 
 }
+avatar svg:hover {
+  filter: drop-shadow(rgba(146, 234, 255, 0.9) 0px 0px 10px);
+  stroke-width: 3;
+  transform: rotate(5deg) scale(1.1);
+  transition: 0.1s;
+}
 avatar svg {
   filter: drop-shadow(rgba(146, 234, 255, 0.5) 0px 0px 10px);
   transform: rotate(-5deg);
   display: inline-block;
-  
+  transition: 2s;
+}
+a.hexlink {
+  border: 0;
 }
 
 </style>

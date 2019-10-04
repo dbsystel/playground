@@ -5,6 +5,7 @@ entry = [:]
 def template = """
       <entry>
         <avatar>
+          <a href="https://github.com/${->entry.name}" class="hexlink">
           <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100" height="100" xmlns:xlink="http://www.w3.org/1999/xlink">
 
             <defs>
@@ -15,6 +16,7 @@ def template = """
             
             <polygon class="hex" points="100,50 75,93 25,93 0,50 25,6.6 75,6.6" fill="url('#image-bg-${->entry.name}')"></polygon>
           </svg>
+          </a>
         </avatar>
         <name><a href="https://github.com/${->entry.name}">${->entry.name}</a></name>
         <prs>${->entry.prs}</prs>
