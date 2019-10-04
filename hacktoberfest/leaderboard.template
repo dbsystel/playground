@@ -71,16 +71,18 @@ entry {
   display: inline-block;
   margin-top: 16px;
   margin-right: 32px;
+  perspective: 100px;
 }
 entry name {
   position: absolute;
   font-size: 16px;
-  left: 0px;
-  top: -16px;
+  left: -8px;
+  top: -20px;
   color: #f0a;
   text-shadow: 0 0 5px #f0a;
   display: block;
   z-index: 10;
+  transform: rotateY(-10deg) rotateZ(-5deg); 
 }
 entry prs {
   position: absolute;
