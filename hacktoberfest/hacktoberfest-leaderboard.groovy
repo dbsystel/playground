@@ -53,6 +53,7 @@ new File("build/leaderboard.css").write(new File("leaderboard.css").text)
 def htmlMaster = new URL ("https://hacktoberffm.de/agenda").text
 // turn relative reference into absolute ones
 htmlMaster = htmlMaster.replaceAll('"/','"https://hacktoberffm.de/')
+htmlMaster = htmlMaster.replaceAll('[(]/','(https://hacktoberffm.de/')
 // set leaderboard menu entry to active
 htmlMaster = htmlMaster.replaceAll('https://hacktoberffm.de/leaderboard" class="','/" class="nuxt-link-active nuxt-link-exact-active ')
 // add extra styles
