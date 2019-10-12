@@ -50,7 +50,7 @@ new File("build/.").mkdirs()
 // copy css file
 new File("build/leaderboard.css").write(new File("leaderboard.css").text)
 // fetch agenda file as master
-def htmlMaster = new URL ("https://hacktoberffm.de/agenda").text
+def htmlMaster = new URL ("https://hacktoberffm.de/Schedule").text
 // turn relative reference into absolute ones
 htmlMaster = htmlMaster.replaceAll('"/','"https://hacktoberffm.de/')
 htmlMaster = htmlMaster.replaceAll('[(]/','(https://hacktoberffm.de/')
