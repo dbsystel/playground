@@ -8,6 +8,7 @@ def create_hello(language="en"):
     hellos = {
       "en": "Hello, World!",
       "de": "Hallo, Welt!",
+      "tr": "Merhaba, Dünya!",
     }
     return hellos[language]
 
