@@ -7,3 +7,5 @@ def test_create_hello_world():
     assert create_hello() == "Hello, World!"
     assert create_hello("en") == "Hello, World!"
     assert create_hello("de") == "Hallo, Welt!"
+    assert create_hello("tr") == "Merhaba, Dünya!"
+    
