@@ -14,6 +14,15 @@ See the [contribution guidelines](CONTRIBUTING.md) for more details how to contr
 * Add some documentation
 * ...
 
+## Contributers-App
+
+We have a simple contributers-app in this repository, made with react.js in javascript.
+You can add yourself with some info about you :-)
+
+To start the app you need node.js and npm to be installed.
+Open a terminal, navigate to the root of your repo-clone and type:
+`npm run contributers-app`
+
 ## Hacktoberfest 2019
 
 [Hacktoberfest](https://hacktoberfest.digitalocean.com/) is a global celebration of open source software encouraging everyone to make positive contributions to the every growing open source community. Everyone is welcome to participate.

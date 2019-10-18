@@ -1,0 +1,26 @@
+.App {
+  text-align: center;
+  background-color: #282c34;
+  height: 100vh;
+  color: white;
+}
+
+.App-logo {
+  height: 10vmin;
+}
+
+.App-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 20vh;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+.App-body ul {
+  list-style: none;
+}
