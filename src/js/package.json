@@ -1,0 +1,10 @@
+{
+  "name": "playground-js",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "hello-world": "node index.js"
+  },
+  "author": "Florian (@sinnlosername)",
+  "license": "Apache-2.0"
+}
