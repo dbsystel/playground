@@ -1,0 +1,8 @@
+.contributor li {
+    max-width: 50vw;
+    list-style: none;
+};
+
+.contributor-link {
+    color: lightcoral;
+};
