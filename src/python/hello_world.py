@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
+
 # Copyright 2019 DB Systel GmbH
+#
 # SPDX-License-Identifier: Apache-2.0
 
 import sys
