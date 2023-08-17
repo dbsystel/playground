@@ -1,0 +1,16 @@
+{
+  "name": "dbsystel-playground",
+  "version": "1.0.0",
+  "description": "This is the DB Systel playground. A safe space for getting experience with contributing to open source software, how pull requests work and all that, on example code. Be creative but don't put anything with real value here. You'll get friendly review, and since this is not production code you can't break anything anyway.",
+  "scripts": {
+    "contributers-app": "cd ./src/javascript/contributers-app && npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dbsystel/playground"
+  },
+  "bugs": {
+    "url": "https://github.com/dbsystel/playground/issues"
+  },
+  "homepage": "https://github.com/dbsystel/playground#readme"
+}
