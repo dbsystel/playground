@@ -11,6 +11,8 @@ def create_hello(language="en"):
       "en": "Hello, World!",
       "de": "Hallo, Welt!",
       "tr": "Merhaba, Dünya!",
+      "fr": "Bonjour le monde",
+      "ar": "مرحبا بالعالم"
     }
     return hellos[language]
 
